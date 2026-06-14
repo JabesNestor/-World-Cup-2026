@@ -21,7 +21,7 @@ que representa el promedio de goles esperados por equipo.
 ## Metodología
 1. Calcular la ventaja de local con partidos no neutrales
 2. Calcular la fuerza de ataque y defensa de cada selección
-3. Estimar los goles esperados (λ) para cada equipo usando el modelo de Dixon-Coles simplificado
+3. Estimar los goles esperados (λ) 
 4. Construir la matriz de probabilidades con `dpois()`
 5. Obtener probabilidades de victoria, empate y derrota
 
@@ -30,3 +30,6 @@ que representa el promedio de goles esperados por equipo.
 - λ Australia: 2.901
 - λ Turkey: 0.937
 - Australia gana: 70% | Empate: 13.4% | Turkey gana: 9.1%
+
+## Recursos
+- Video de inspiración: [YouTube](https://www.youtube.com/watch?v=cvPeS0qAikw)
