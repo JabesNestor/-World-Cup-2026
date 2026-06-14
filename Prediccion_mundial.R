@@ -42,6 +42,7 @@ stats <- full_join(stats_local, stats_visita, by = "equipo") %>%
   )
 
 # ──  PREDICCION ──────────────────────────────────────────────────────────────
+# nota: Jabes del futuro verifica bien los nombres esten exactamente iguales a la base de datos.
 equipo_local  <- "Australia"
 equipo_visita <- "Turkey"
 
